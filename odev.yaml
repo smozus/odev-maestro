@@ -1,0 +1,23 @@
+appId: com.pozitron.hepsiburada
+---
+- launchApp:
+    clearState: true
+- scrollUntilVisible:
+    element:
+      id: "productBoxImage"
+- tapOn:
+    id: "productBoxImage"
+- assertVisible: "Apple iPhone 17 Pro Max 256 GB G\u00fcm\u00fc\u015f"
+- assertVisible: "135.000"
+- tapOn: "Sepete ekle"
+- assertVisible: "Apple iPhone 17 Pro Max 256 GB G\u00fcm\u00fc\u015fSepete eklendi"
+- tapOn: "Sepete git"
+- assertVisible: "Sepetim"
+- assertVisible: "135.000 TL"
+- assertVisible: "Apple iPhone 17 Pro Max 256 GB G\u00fcm\u00fc\u015f"
+- assertVisible: "135.000 TL"
+- tapOn: "\u00d6demeye Ge\u00e7"
+- assertVisible: "\u00dcye olmadan devam et"
+- tapOn: "\u00dcye olmadan devam et"
+
+
